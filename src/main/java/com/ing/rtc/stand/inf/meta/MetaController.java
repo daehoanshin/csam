@@ -10,7 +10,7 @@ public class MetaController {
 	@RequestMapping("/harweb")
 	public ModelAndView respose() {
 		ModelAndView mv = new ModelAndView("meta");
-		mv.addAllObjects();
+		mv.addAllObjects(null);
 		return mv;
 	}
 }
